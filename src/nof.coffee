@@ -1,10 +1,9 @@
 fs = require 'fs'
 path = require 'path'
-_ = require 'underscore-plus'
 walkdir = require 'walkdir'
 
 module.exports = (specPaths...) ->
-  specPaths = _.flatten(specPaths)
+  specPaths = specPaths.flat(Infinity)
   specPaths = ['spec'] if specPaths.length is 0
   specPaths = specPaths.map (directory) -> path.resolve(directory)
 

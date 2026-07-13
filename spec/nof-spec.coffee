@@ -1,6 +1,6 @@
 fs = require 'fs'
 path = require 'path'
-temp = require 'temp'
+temp = require './helpers/temp'
 nof = require '../lib/nof'
 
 describe "nof", ->
