@@ -1,4 +1,5 @@
 node_modules/
 *.js
+!spec/helpers/temp.js
 .DS_Store
 npm-debug.log
