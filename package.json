@@ -32,7 +32,7 @@
     "coffeescript": "2.7.0"
   },
   "dependencies": {
-    "@lumine-code/jasmine-node": "https://github.com/lumine-code/jasmine-node.git#2a8c59b73ce636120e48f707f13bac2832032920",
+    "@lumine-code/jasmine-node": "https://github.com/lumine-code/jasmine-node.git#e8f7ea4bdcff09d812afdf356f95ccff91f26aa4",
     "walkdir": "^0.4.1"
   }
 }
