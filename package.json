@@ -25,14 +25,14 @@
   "scripts": {
     "build": "coffee --compile --output lib src",
     "pretest": "npm run build",
-    "test": "node node_modules/jasmine-node/bin/jasmine-node --captureExceptions --coffee spec/",
+    "test": "node node_modules/@lumine-code/jasmine-node/bin/jasmine-node --captureExceptions --coffee spec/",
     "prepare": "npm run build"
   },
   "devDependencies": {
     "coffeescript": "2.7.0"
   },
   "dependencies": {
-    "jasmine-node": "https://github.com/lumine-code/jasmine-node.git#d6b31323d3eab0efa61832e36f5b5ba47dd7a581",
+    "@lumine-code/jasmine-node": "https://github.com/lumine-code/jasmine-node.git#2a8c59b73ce636120e48f707f13bac2832032920",
     "walkdir": "^0.4.1"
   }
 }

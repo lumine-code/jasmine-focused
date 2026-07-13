@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require('jasmine-focused');
-require('jasmine-node/bin/jasmine-node');
+require('../lib/jasmine-focused');
+require('@lumine-code/jasmine-node/bin/jasmine-node');
