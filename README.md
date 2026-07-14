@@ -1,12 +1,12 @@
 # @lumine-code/jasmine-focused
 
-Adds priority-based focused specs to the legacy Jasmine runner used by Lumine.
+Adds priority-based focused specs to Jasmine 6.
 
 ## Features
 
 - **Focused suites**: adds `fdescribe`, `ffdescribe`, and `fffdescribe` with increasing priority.
 - **Focused specs**: adds `fit`, `ffit`, and `fffit` with the same priority model.
-- **Runner integration**: wraps the Lumine Jasmine 1 runner without changing existing spec files.
+- **Runner integration**: loads as a Jasmine 6 helper without changing existing spec files.
 - **Focus cleanup**: includes `nof` to remove focused prefixes from JavaScript and CoffeeScript specs.
 
 ## Installation

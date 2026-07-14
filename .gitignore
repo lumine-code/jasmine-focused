@@ -1,6 +1,7 @@
 node_modules/
 *.js
 !spec/helpers/temp.js
+!spec/*.js
 !lib/
 !lib/*.js
 .DS_Store

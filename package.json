@@ -1,7 +1,7 @@
 {
   "name": "@lumine-code/jasmine-focused",
   "version": "2.0.0",
-  "description": "Adds priority-based focused specs to the legacy Jasmine runner used by Lumine.",
+  "description": "Adds priority-based focused specs to Jasmine 6.",
   "main": "./lib/jasmine-focused.js",
   "bin": {
     "jasmine-focused": "./bin/jasmine-focused",
@@ -23,16 +23,10 @@
     "lib"
   ],
   "scripts": {
-    "build": "coffee --compile --output lib src",
-    "pretest": "npm run build",
-    "test": "node node_modules/@lumine-code/jasmine-node/bin/jasmine-node --captureExceptions --coffee spec/",
-    "prepare": "npm run build"
-  },
-  "devDependencies": {
-    "coffeescript": "2.7.0"
+    "test": "jasmine"
   },
   "dependencies": {
-    "@lumine-code/jasmine-node": "https://github.com/lumine-code/jasmine-node.git#e8f7ea4bdcff09d812afdf356f95ccff91f26aa4",
+    "jasmine": "^6.3.0",
     "walkdir": "^0.4.1"
   }
 }

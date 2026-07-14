@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 
-require('../lib/jasmine-focused');
-require('@lumine-code/jasmine-node/bin/jasmine-node');
+const path = require('path')
+
+process.argv.push(`--require=${path.resolve(__dirname, '../lib/jasmine-focused.js')}`)
+require(path.resolve(path.dirname(require.resolve('jasmine')), '../bin/jasmine.js'))
