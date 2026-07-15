@@ -26,7 +26,6 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "jasmine": "^6.3.0",
-    "walkdir": "^0.4.1"
+    "jasmine": "^6.3.0"
   }
 }
