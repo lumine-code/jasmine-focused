@@ -2,6 +2,9 @@
 
 Adds priority-based focused specs to Jasmine 6.
 
+> [!WARNING]
+> **This package is deprecated.** [Lumine](https://github.com/lumine-code/lumine) no longer depends on it — the test harness uses Jasmine 6's native focused specs (`fit`, `fdescribe`). This repository is archived and no longer maintained.
+
 ## Features
 
 - **Focused suites**: adds `fdescribe`, `ffdescribe`, and `fffdescribe` with increasing priority.
