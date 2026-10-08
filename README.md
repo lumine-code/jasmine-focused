@@ -2,6 +2,8 @@
 
 Adds priority-based focused specs to Jasmine 6.
 
+Fork of [atom/jasmine-focused](https://github.com/atom/jasmine-focused).
+
 > [!WARNING]
 > **This package is deprecated.** [Lumine](https://github.com/lumine-code/lumine) no longer depends on it — the test harness uses Jasmine 6's native focused specs (`fit`, `fdescribe`). This repository is archived and no longer maintained.
 
@@ -21,9 +23,9 @@ npm install @lumine-code/jasmine-focused
 ## Usage
 
 ```js
-require('@lumine-code/jasmine-focused')
+require("@lumine-code/jasmine-focused");
 
-fit('runs before ordinary specs', () => {})
+fit("runs before ordinary specs", () => {});
 ```
 
 Run `nof spec` to turn focused `it` and `describe` calls back into their ordinary forms.
