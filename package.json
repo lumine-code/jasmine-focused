@@ -1,6 +1,6 @@
 {
   "name": "@lumine-code/jasmine-focused",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Adds priority-based focused specs to Jasmine 6.",
   "main": "./lib/jasmine-focused.js",
   "bin": {
