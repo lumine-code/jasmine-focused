@@ -20,7 +20,8 @@
   },
   "files": [
     "bin",
-    "lib"
+    "lib",
+    "THIRD_PARTY_NOTICES"
   ],
   "scripts": {
     "test": "jasmine"
